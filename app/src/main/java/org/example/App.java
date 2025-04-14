@@ -21,7 +21,7 @@ public class App {
         System.out.println("Linear search on randomized list found golden fuzzy at index: " + testThree);
         System.out.println("Binary search on randomized list found golden fuzzy at index: " + testFour);
         
-        // New functionality to find pricklies
+        
         int pricklyOne = finder.findPrickly(sortedFeelings);
         int pricklyTwo = finder.findPrickly(randomFeelings);
         int pricklyThree = finder.binarySearchPrickly(sortedFeelings);
